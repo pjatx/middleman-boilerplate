@@ -5,9 +5,7 @@
 @import "settings/variables";
 
 // Vendors
-@import "vendors-settings/foundation";
-@import "foundation-sites/scss/foundation";
-@include foundation-everything(true);
+@import "bulma/bulma";
 
 // Styling!
 // 1. base/
@@ -21,6 +19,3 @@
 @import "layout/navbar";
 
 // 4. pages/
-@import "pages/errors";
-@import "pages/home";
-@import "pages/style_guide";

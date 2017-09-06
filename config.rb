@@ -7,6 +7,7 @@ set :js_dir,      'assets/javascripts'
 
 activate :autoprefixer
 activate :protect_emails
+activate :livereload
 
 page '/*.xml',  layout: false
 page '/*.json', layout: false
